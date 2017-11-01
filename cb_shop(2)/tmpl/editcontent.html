@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,height=device-height,maximum-scale=1.0,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<title>发帖</title>
+		<link href="../css/base.css" rel="stylesheet" type="text/css" />
+		<link href="../css/iconfont.css" rel="stylesheet" type="text/css" />
+		<link href="../css/common.css" rel="stylesheet" type="text/css" />
+		<link href="../css/footer.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.raty.min.js"></script>
+		<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	</head>
+
+	<body>
+
+		<div class="edit-common">
+			<div class="title" style="background-color: #db3100; color: #FFFFFF;">
+				<a href="javascript:history.go(-1)" style="color: #FFFFFF;">
+					<i class="icon iconfont icon-arrow-left"></i>
+				</a>
+				<p>发帖</p>
+			</div>
+			<div class="t_height"></div>
+			<div class="con-tit">
+				<input type="text" id="contit" value="请点击添加标题" />
+			</div>
+			<div class="con-text">
+				<textarea>说点什么吧...</textarea>
+				<div>
+					<span>联系电话：</span>
+					<input type="tel" value="" placeholder="必填" />
+				</div>
+			</div>
+			<div class="con-upload-photo">
+				<i class="icon iconfont icon-sheying"></i>
+				<p>请上传图片</p>
+				<input type="file" name="upload" />
+			</div>
+		</div>
+		<div class="fabu"><a href="javascript:;" style="color: #FFFFFF;">发布</a></div>
+
+		<script type="text/javascript">
+			$(function() {
+
+				$.fn.raty.defaults.path = '../images';
+				$('#default-demo').raty();
+			});
+		</script>

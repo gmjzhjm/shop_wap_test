@@ -1,0 +1,125 @@
+.member {
+  width: 100%;
+  height: 100%;
+  background-color: #f1f8fe;
+}
+.member .member-user {
+  width: 94%;
+  height: 2.6rem;
+  padding: 1rem 3%;
+  background-color: #0282f0;
+  color: #FFFFFF;
+}
+.member .member-user div {
+  float: left;
+  font-size: 0.7rem;
+}
+.member .member-user .user-pic {
+  width: 15%;
+  background-color: #f8faf7;
+  height: 2.6rem;
+  text-align: center;
+  -webkit-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+}
+.member .member-user .user-pic img {
+  height: 2.6rem;
+  max-width: 100%;
+}
+.member .member-user .user-info {
+  width: 80%;
+  margin-left: 4%;
+}
+.member .member-user .user-info p {
+  height: 1.3rem;
+  line-height: 1.3rem;
+}
+.member .member-nav {
+  width: 100%;
+  height: 2.6rem;
+  padding: 0.5rem 0;
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom: 1px solid #dadada;
+}
+.member .member-nav a {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.member .member-nav a p {
+  color: #666666;
+  font-size: 0.65rem;
+}
+.member .member-nav a .red {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #e4024e;
+  margin-bottom: 0.3rem;
+}
+.member .member-nav .left-nav {
+  box-sizing: border-box;
+  border-right: 1px solid #bbbbbb;
+}
+.member .member-steps {
+  width: 100%;
+  margin-top: 0.5rem;
+  height: 100%;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+.member .member-steps li {
+  width: 94%;
+  padding: 0 3%;
+  height: 2rem;
+  line-height: 2rem;
+  border-bottom: 1px solid #dadada;
+}
+.member .member-steps li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.member .member-steps li span {
+  display: block;
+  float: left;
+  color: #000000;
+  font-size: 0.75rem;
+}
+.member .member-steps li .icon-qiandai {
+  color: #00adfe;
+  font-size: 1rem;
+}
+.member .member-steps li .icon-xinxi {
+  color: #0db78a;
+  font-size: 1rem;
+}
+.member .member-steps li .icon-yonghu {
+  color: #ff6f00;
+  font-size: 1rem;
+}
+.member .member-steps li .icon-youhuiquan {
+  color: #00aeff;
+  font-size: 1rem;
+}
+.member .member-steps li .icon-shouye {
+  color: #ffb514;
+  font-size: 1rem;
+}
+.member .member-steps li .steps-icon {
+  padding-right: 0.5rem;
+}
+.member .member-steps li .arrow-right {
+  float: right;
+}
+.member .member-steps li .icon-left-angle {
+  color: #c7c6cb;
+  font-size: 0.8rem;
+}
+.member .member-steps li .aboutus {
+  float: right;
+  font-size: 0.7rem;
+  padding-right: 0.6rem;
+}
+/*# sourceMappingURL=member.css.map */

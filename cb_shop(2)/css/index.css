@@ -1,0 +1,193 @@
+.guidebank {
+  width: 100%;
+  height: 100%;
+}
+.guidebank header {
+  width: 100%;
+  height: 100%;
+  background-color: #2a292e;
+  padding: 0.5rem 0 1rem;
+}
+.guidebank header .logo {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #ffffff;
+  line-height: 2rem;
+  font-weight: normal;
+}
+.guidebank header .logo img {
+  height: 0.65rem;
+}
+.guidebank header .search {
+  width: 100%;
+  height: 1.6rem;
+}
+.guidebank header .search a {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  background-color: #62a6d3;
+  line-height: 1.6rem;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 0.6rem;
+}
+.guidebank header .search i {
+  font-size: 0.7rem;
+}
+.guidebank .searchfixed {
+  position: fixed;
+  padding: 0;
+  width: 100%;
+  height: 2.8rem;
+  left: 0;
+  z-index: 3;
+  top: 0;
+  background-color: #FFFFFF;
+}
+.guidebank .searchfixed .search {
+  width: 100%;
+  height: 1.6rem;
+}
+.guidebank .searchfixed .search a {
+  display: block;
+  width: 90%;
+  margin: 0.4rem auto;
+  -webkit-border-radius: 1rem;
+  border-radius: 1rem;
+  background-color: #e2e2e2;
+  line-height: 2rem;
+  height: 2rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+.guidebank .searchfixed .search a i {
+  font-size: 0.72rem;
+  color: #999999;
+}
+.guidebank .store-list {
+  width: 100%;
+  height: 100%;
+  margin: 0.5rem auto;
+}
+.guidebank .store-list .act-introduction {
+  width: 94%;
+  height: 100%;
+  padding: 0.3rem 3%;
+  background-color: #FFF;
+}
+.guidebank .store-list .act-introduction .icon-jieshao {
+  width: 80%;
+  float: left;
+  color: #b1b1b1;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.8rem;
+}
+.guidebank .store-list .act-introduction .icon-jieshao i {
+  color: #333333;
+  font-size: 0.72rem;
+}
+.guidebank .store-list .act-introduction .b-arrow {
+  width: 20%;
+  float: right;
+  text-align: right;
+  height: 1rem;
+  line-height: 1rem;
+}
+.guidebank .store-list .act-introduction .intro-con {
+  width: 94%;
+  margin: 0 auto;
+  clear: both;
+  line-height: 1.2rem;
+  font-size: 0.6rem;
+  overflow: hidden;
+}
+.guidebank .store-list .act-introduction .infohide {
+  height: 0;
+}
+.guidebank .store-list .act-introduction .infoshow {
+  height: 100%;
+  padding-top: 0.5rem;
+}
+.guidebank .store-list .store {
+  width: 100%;
+  height: 100%;
+}
+.guidebank .store-list .store ul {
+  width: 100%;
+  height: 100%;
+}
+.guidebank .store-list .store ul li {
+  width: 94%;
+  height: 100%;
+  padding: 0 3%;
+  background-color: #FFFFFF;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+.guidebank .store-list .store ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.guidebank .store-list .store ul li .leftpic {
+  width: 25%;
+  padding: 0.5rem 0;
+  float: left;
+}
+.guidebank .store-list .store ul li .leftpic img {
+  max-width: 100%;
+  height: 3rem;
+}
+.guidebank .store-list .store ul li .middletext {
+  width: 40%;
+  float: left;
+  color: #333;
+  font-size: 0.72rem;
+  margin-left: 5%;
+}
+.guidebank .store-list .store ul li .middletext p {
+  height: 1rem;
+  line-height: 1rem;
+}
+.guidebank .store-list .store ul li .middletext .stroe-name {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.guidebank .store-list .store ul li .middletext .stroe-name img {
+  width: 1rem;
+  float: left;
+  margin-right: 0.4rem;
+}
+.guidebank .store-list .store ul li .middletext .lightstar {
+  width: 100%;
+}
+.guidebank .store-list .store ul li .middletext .lightstar img {
+  width: 0.7rem;
+  float: left;
+  margin: 0.2rem 0.15rem auto 0;
+}
+.guidebank .store-list .store ul li .middletext .store-address {
+  color: #797979;
+  font-size: 0.6rem;
+  line-height: 1.4rem;
+}
+.guidebank .store-list .store ul li .right-zan {
+  width: 30%;
+  float: right;
+  text-align: right;
+  height: 1rem;
+  line-height: 1rem;
+  margin-top: 1.5rem;
+  font-size: 0.56rem;
+}
+.guidebank .store-list .store ul li .right-zan i {
+  margin-left: 0.2rem;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=index.css.map */

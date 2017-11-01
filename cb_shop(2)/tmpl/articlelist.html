@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,height=device-height,maximum-scale=1.0,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<title>情报列表</title>
+		<link href="../css/base.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="../css/pullToRefresh.css" />
+		<link href="../css/iconfont.css" rel="stylesheet" type="text/css" />
+		<link href="../css/articlelist.css" rel="stylesheet" type="text/css" />
+		<link href="../css/footer.css" rel="stylesheet" type="text/css" />
+
+		<script src="../js/jquery.min.js" type="text/javascript"></script>
+		
+		<script src="../js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/pullToRefresh.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="articlelist">
+			<!--<div class="title">
+				<a href="javascript:history.go(-1)">
+					<i class="icon iconfont icon-arrow-left"></i>
+				</a>
+				<p>情报列表</p>
+			</div>-->
+			<div class="" id="wrapper">
+				<div class="scroller">
+				<ul class="infolist ">
+					<li>
+						<a href="content.html">
+							<div class="info-title">
+								<p class="tit-name">一个宝妈开微店的心路历程：有人劝我改行我拒绝</p>
+								<p class="tit-time">2015-10-10</p>
+							</div>
+							<div class="info-pic"><img src="../images/infopic.jpg" /></div>
+						</a>
+					</li>
+					<li>
+						<a href="content.html">
+							<div class="info-title">
+								<p class="tit-name">一个宝妈开微店的心路历程：有人劝我改行我拒绝</p>
+								<p class="tit-time">2015-10-10</p>
+							</div>
+							<div class="info-pic"><img src="../images/infopic.jpg" /></div>
+						</a>
+					</li>
+					<li>
+						<a href="content.html">
+							<div class="info-title">
+								<p class="tit-name">一个宝妈开微店的心路历程：有人劝我改行我拒绝</p>
+								<p class="tit-time">2015-10-10</p>
+							</div>
+							<div class="info-pic"><img src="../images/infopic.jpg" /></div>
+						</a>
+					</li>
+					<li>
+						<a href="content.html">
+							<div class="info-title">
+								<p class="tit-name">一个宝妈开微店的心路历程：有人劝我改行我拒绝</p>
+								<p class="tit-time">2015-10-10</p>
+							</div>
+							<div class="info-pic"><img src="../images/infopic.jpg" /></div>
+						</a>
+					</li>
+					<li>
+						<a href="content.html">
+							<div class="info-title">
+								<p class="tit-name">一个宝妈开微店的心路历程：有人劝我改行我拒绝</p>
+								<p class="tit-time">2015-10-10</p>
+							</div>
+							<div class="info-pic"><img src="../images/infopic.jpg" /></div>
+						</a>
+					</li>
+					<li>
+						<a href="content.html">
+							<div class="info-title">
+								<p class="tit-name">一个宝妈开微店的心路历程：有人劝我改行我拒绝</p>
+								<p class="tit-time">2015-10-10</p>
+							</div>
+							<div class="info-pic"><img src="../images/infopic.jpg" /></div>
+						</a>
+					</li>
+					<li>
+						<a href="content.html">
+							<div class="info-title">
+								<p class="tit-name">一个宝妈开微店的心路历程：有人劝我改行我拒绝</p>
+								<p class="tit-time">2015-10-10</p>
+							</div>
+							<div class="info-pic"><img src="../images/infopic.jpg" /></div>
+						</a>
+					</li>
+				</ul>
+				<div class="more"><i class="pull_icon"></i><span>上拉加载...</span></div>
+				</div>
+				
+
+			</div>
+
+			<div class="menu">
+				<a href="../index.html">
+					<p class="menu-icon"><img src="../images/storebrand.png" /></p>
+					<p class="menu-text">品牌商家</p>
+				</a>
+				<a href="articlelist.html">
+					<p class="menu-icon"><img src="../images/infogreen.png" /></p>
+					<p class="menu-text current_menu">情报</p>
+				</a>
+				<a href="shangschool.html">
+					<p class="menu-icon"><img src="../images/school.png" /></p>
+					<p class="menu-text">商学院</p>
+				</a>
+				<a href="member.html">
+					<p class="menu-icon"><img src="../images/user.png" /></p>
+					<p class="menu-text">我</p>
+				</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var myscroll = new iScroll("wrapper", {
+				onScrollMove: function() {
+					var height = this.y,
+						bottomHeight = this.maxScrollY - height;
+					// 控制下拉显示
+					if(height >= 60) {
+						//document.querySelector("#PullDown").style.display = "block";
+						isPulled = true;
+						return;
+					} else if(height < 60 && height >= 0) {
+						//document.querySelector("#PullDown").style.display = "none";
+						return;
+					}
+					if(this.y < (this.maxScrollY)) {
+						$('.pull_icon').addClass('flip');
+						$('.pull_icon').removeClass('loading');
+						$('.more span').text('释放加载...');
+					} else {
+						$('.pull_icon').removeClass('flip loading');
+						$('.more span').text('上拉加载...')
+					}
+				},
+				onScrollEnd: function() {
+					if($('.pull_icon').hasClass('flip')) {
+						$('.pull_icon').addClass('loading');
+						$('.more span').text('加载中...');
+						pullUpAction();
+					}
+
+				},
+				onRefresh: function() {
+					$('.more').removeClass('flip');
+					$('.more span').text('上拉加载...');
+				}
+
+			});
+
+			function pullUpAction() {
+				var html='<li><a href="content.html">'+
+							'<div class="info-title">'+
+							'<p class="tit-name">一个宝妈开微店的心路历程：有人劝我改行我拒绝</p>'+
+							'<p class="tit-time">2017-10-10</p>'+
+							'</div>'+
+							'<div class="info-pic"><img src="../images/infopic.jpg" /></div>'+
+							'</a></li>';
+				setTimeout(function() {
+					/*$.ajax({
+						url:'/json/ay.json',
+						type:'get',
+						dataType:'json',
+						success:function(data){
+							for (var i = 0; i < 5; i++) {
+								$('.scroller ul').append(data);
+							}
+							myscroll.refresh();
+						},
+						error:function(){
+							console.log('error');
+						},
+					})*/
+					for(var i = 0; i < 3; i++) {
+						$('.scroller ul').append(html);
+					}
+					myscroll.refresh();
+				}, 1000)
+			}
+			if($('.scroller').height() < $('#wrapper').height()) {
+				$('.more').hide();
+				myscroll.destroy();
+			}
+		</script>
+
+	</body>
+
+</html>

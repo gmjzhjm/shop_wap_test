@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,height=device-height,maximum-scale=1.0,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<title>编辑评论</title>
+		<link href="../css/base.css" rel="stylesheet" type="text/css" />
+		<link href="../css/iconfont.css" rel="stylesheet" type="text/css" />
+		<link href="../css/common.css" rel="stylesheet" type="text/css" />
+		<link href="../css/footer.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.raty.min.js"></script>
+		<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	</head>
+
+	<body>
+
+		<div class="edit-common">
+			<div class="title" style="background-color: #db3100; color: #FFFFFF;">
+				<a href="javascript:history.go(-1)" style="color: #FFFFFF;">
+					<i class="icon iconfont icon-arrow-left"></i>
+				</a>
+				<p>编辑评论</p>
+			</div>
+			<div class="t_height"></div>
+			<div class="edit-title">
+				<div class="pingfen">评分：</div>
+				<div id="default-demo"></div>
+			</div>
+			<div class="edit-text">
+				<textarea placeholder="请输入您的评价内容"></textarea>
+			</div>
+			<div class="upload-pic">
+				+
+				<input type="file" name="upload" />
+			</div>
+		</div>
+		<div class="fabu"><a href="javascript:;" style="color: #FFFFFF;">发布</a></div>
+
+		<script type="text/javascript">
+			$(function() {
+
+				$.fn.raty.defaults.path = '../images';
+				$('#default-demo').raty();
+			});
+		</script>

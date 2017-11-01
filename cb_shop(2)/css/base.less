@@ -1,0 +1,180 @@
+/*多分辨率设定rem设定*/
+html {
+    font-size: 20px;
+}
+/*Note3*/
+@media only screen and (min-width: 360px) {
+    html {
+        font-size: 22px !important;
+    }
+}
+/*iPhone6*/
+@media only screen and (min-width: 376px) {
+    html {
+        font-size: 23px !important;
+    }
+}
+/*iPhone6 plus*/
+@media only screen and (min-width: 414px) {
+    html { 
+        font-size: 25px !important;
+    }
+}
+/*big Resolution*/
+@media only screen and (min-width: 641px) {
+    html {
+        font-size: 28px !important;
+    }
+}
+html {
+    -ms-touch-action: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+body {
+    background-color: #f8f8f8;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+body {
+    padding: 0;
+    margin: 0 auto;
+    color: #333;
+    font-size: 15px;
+    font-family: San Francisco, Helvetica, Arial, sans-serif;
+}
+input,option,select,
+textarea {
+    border: none;
+    outline: none;
+}
+input[type = "radio"] {
+    -webkit-appearance: none;
+    /* 去掉radio的默认样式 */
+    display: block;
+    outline: none;
+    width: 0.8rem;
+    height: 0.8rem;
+    float: left;
+    margin-right: 0.5rem;
+    background-image:url(../images/radiobtn.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+input[type = "radio"].checked {
+    background-image: url(../images/checked.jpg);
+}
+div,
+ul,
+li,
+i,
+p {
+    list-style: none;
+    font-style: initial;
+}
+button {
+    background: none;
+    outline: none;
+    border: none;
+    font-family: "microsoft yahei",arial;
+}
+.border_bottom {
+    border-bottom: solid 1px #eee; 
+}
+.red{
+    color: #f95b5a;
+}
+.color_default{
+    color: #a1a1a1;
+}
+.orange {
+    color: #ffa541;
+}
+.green {
+    color: #8bc53f;
+}
+.bg_white {
+    background: #fff;
+}
+.m_top {
+    margin-top: 10px;
+}
+.f_r {
+    float: right;
+}
+.font_12 {
+    font-size: 12px;
+}
+//按钮背景颜色
+.btn {
+    height: 1.4rem;
+    text-align: center;
+    line-height: 1.4rem;
+    display: block;
+    border-radius: 0.25rem;
+}
+.default_btn {
+    background-color: #999999;
+}
+.green_btn {
+    background-color: #2b9855;
+}
+
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: none;
+}
+.title {
+        width: 92%;
+        padding: 0 4%;
+        height: 2rem;
+        line-height: 2rem;
+        position: fixed;
+        z-index: 999;
+        left: 0;
+        top: 0;
+        border-bottom: 1px solid #adadad;
+        background-color: #FFFFFF;
+        a {
+            display: block;
+            width: 10%;
+            position: absolute;
+            left: 3%;
+            top: 0;
+            z-index: 3;
+            color: #5d5d5d;
+            i {
+                font-size: 1rem;
+            }
+        }
+        p {
+            position: absolute;
+            left: 0;
+            top: 0;
+            text-align: center;
+            width: 100%;
+            line-height: 2rem;
+            height: 2rem;
+            font-size: 0.8rem;
+            z-index: 2;
+        }
+    }
+.t_height{
+    height: 2rem;
+    width: 100%;
+}

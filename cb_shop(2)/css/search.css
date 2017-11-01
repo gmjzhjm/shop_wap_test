@@ -1,0 +1,128 @@
+/*默认顶部*/
+body {
+  background-color: #ffffff;
+}
+#header {
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  height: 2rem;
+  background-color: #eeeeee;
+}
+#header .header-wrap {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+#header .header-wrap .header-l {
+  display: block;
+  width: 10%;
+  height: 2rem;
+  float: left;
+}
+#header .header-wrap .header-l a {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.5rem;
+}
+#header .header-wrap .header-l a i {
+  font-size: 0.8rem;
+  color: #333;
+}
+#header .header-wrap .header-inp {
+  display: block;
+  height: 1.4rem;
+  margin: 0.25rem auto;
+  text-align: left;
+  float: left;
+  width: 70%;
+  margin-left: 3%;
+}
+#header .header-wrap .header-inp .search-input {
+  width: 95%;
+  height: 1.4rem;
+  font-size: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  padding-left: 5%;
+  background-color: #FFF;
+  border-radius: 0.7rem;
+  line-height: 1.4rem;
+  color: #9a9a9a;
+  vertical-align: top;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#header .header-wrap .header-r {
+  width: 15%;
+  float: right;
+}
+#header .header-wrap .header-r a {
+  font-size: 0.7rem;
+  text-align: center;
+  color: #333;
+  line-height: 2rem;
+}
+.hot-search {
+  width: 90%;
+  margin: 0 auto;
+  clear: both;
+}
+.hot-search h1 {
+  width: 100%;
+  color: #989898;
+  margin-top: 1.4rem;
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+.hot-search ul {
+  width: 100%;
+  height: 100%;
+  margin-top: 0.8rem;
+}
+.hot-search ul li {
+  float: left;
+  border: 1px solid #dddddd;
+  margin-right: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.hot-search ul li a {
+  font-size: 0.65rem;
+  color: #000;
+}
+.history-search {
+  width: 90%;
+  margin: 0 auto;
+  clear: both;
+}
+.history-search h1 {
+  width: 100%;
+  color: #989898;
+  margin-top: 1.4rem;
+  font-size: 0.7rem;
+  font-weight: normal;
+  padding-top: 1rem;
+}
+.history-search h1 span {
+  color: #62a5d2;
+  float: right;
+}
+.history-search ul {
+  width: 100%;
+  height: 100%;
+  padding-top: 0.4rem;
+}
+.history-search ul li {
+  width: 100%;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.history-search ul li a {
+  color: #000000;
+  font-size: 0.65rem;
+}
+/*# sourceMappingURL=search.css.map */

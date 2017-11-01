@@ -1,0 +1,131 @@
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.pic_edit {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: #000;
+	overflow: hidden;
+}
+
+#clipArea {
+	margin: 0 auto;
+	/*height: 100%;
+	width: 100%;*/
+	width: 100%;
+	/*height: 15rem;*/
+}
+
+#clipBtn,
+#clipcancel {
+	color: #ffffff;
+	/*padding: 8px 20px;*/
+	border-radius: 5px;
+	width: 3rem;
+	margin: 1rem .5rem;
+	/*left: 50%;*/
+	height: 1.5rem;
+	line-height: 1.5rem;
+}
+
+#clipBtn {
+	background-color: #f75f37;
+}
+
+#clipcancel {
+	background: #928b8b;
+}
+
+.clip_btn {
+	width: 100%;
+	position: absolute;
+	top: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#upload2 {
+	margin-top: 5px;
+	background-color: gray;
+	color: #ffffff;
+	padding: 8px 20px;
+	border-radius: 5px;
+	width: 40%;
+	margin-left: 3%;
+}
+
+#hit {
+	/*position: fixed;
+	top: 19%;
+	left: 9.375%;
+	background: gainsboro;*/
+}
+
+.logo {
+	position: absolute;
+	bottom: 12%;
+	z-index: 100;
+	width: 46%;
+	left: 27%;
+}
+
+
+/*适应小屏*/
+
+@media screen and (max-height: 450px) {
+	.show_labour .show_img {
+		width: 75%;
+		margin-top: 22%;
+	}
+	.show_labour .show5 {
+		width: 80%;
+		left: 10%;
+		margin-top: 22%;
+	}
+	.show_labour .show5_btn {
+		width: 62%;
+	}
+	#clipBtn,
+	#upload2 {
+		margin-top: 0px;
+		padding: 5px 20px;
+	}
+}
+
+.photoclip {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.img_header {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 6;
+	display: none;
+}
+
+.file_img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 15;
+	top: 0;
+	left: 0;
+}

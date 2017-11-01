@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1" />
+		<title>收银台</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link href="../css/iconfont.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="../css/pay.css" />
+		<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+	</head>
+
+	<body>
+		<div class="pay">
+			<div class="title">
+				<a href="javascript:history.go(-1)">
+					<i class="icon iconfont icon-arrow-left"></i>
+				</a>
+				<p>收银台</p>
+			</div>
+			<div class="t_height"></div>
+			<div class="paymoney">
+				<p class="pay-tit">支付金额</p>
+				<p class="pay-num">￥20.00</p>
+				<p class="pay-name">商品名称：审核费</p>
+			</div>
+			<div class="pay-method">
+				<form>
+					<ul>
+						<li class="pay-border">
+							<div class="paymethod-icon icon iconfont icon-weixin"><i>微信支付</i></div>
+							<div class="paymethod-choose">
+								<input class="checked" type="radio" id="weixin" name="pay" checked />
+							</div>
+						</li>
+						<li>
+							<div class="paymethod-icon icon iconfont icon-zhifubao"><i>支付宝支付</i></div>
+							<div class="paymethod-choose">
+								<input type="radio" id="zhifubao" name="pay" />
+							</div>
+						</li>
+					</ul>
+					<div class="paybtn"><a href="idsuccess.html">立即支付</a></div>
+				</form>
+			</div>
+		</div>
+		<div class="menu">
+			<a href="../index.html">
+				<p class="menu-icon"><img src="../images/storebrand.png" /></p>
+				<p class="menu-text">品牌商家</p>
+			</a>
+			<a href="articlelist.html">
+				<p class="menu-icon"><img src="../images/info.png" /></p>
+				<p class="menu-text">情报</p>
+			</a>
+			<a href="shangschool.html">
+				<p class="menu-icon"><img src="../images/school.png" /></p>
+				<p class="menu-text">商学院</p>
+			</a>
+			<a href="member.html">
+				<p class="menu-icon"><img src="../images/usergreen.png" /></p>
+				<p class="menu-text current_menu">我</p>
+			</a>
+		</div>
+	</body>
+	<script src="../js/jquery.min.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function() {
+			$('.paymethod-choose input').click(function() {
+				$('.paymethod-choose input').removeClass("checked");
+				$(this).addClass("checked");
+				$('.paymethod-choose input').attr("checked"," ");
+				$(this).attr("checked","checked");
+			});
+		})
+	</script>
+
+</html>

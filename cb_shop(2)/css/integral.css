@@ -1,0 +1,115 @@
+.integral {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2.6rem;
+}
+.integral .integral-user {
+  width: 94%;
+  height: 2.6rem;
+  padding: 1rem 3%;
+  background-color: #ffffff;
+  margin-top: 0.5rem;
+  color: #333333;
+}
+.integral .integral-user div {
+  float: left;
+  font-size: 0.8rem;
+}
+.integral .integral-user .user-pic {
+  width: 15%;
+  background-color: #f8faf7;
+  height: 2.6rem;
+  text-align: center;
+  -webkit-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+}
+.integral .integral-user .user-pic img {
+  height: 2.6rem;
+  max-width: 100%;
+}
+.integral .integral-user .user-info {
+  width: 80%;
+  margin-left: 4%;
+}
+.integral .integral-user .user-info p {
+  height: 1.3rem;
+  line-height: 1.3rem;
+}
+.integral .integral-tit {
+  width: 94%;
+  height: 1rem;
+  padding: 0.5rem 3%;
+  line-height: 1rem;
+  font-size: 0.8rem;
+  color: #333333;
+}
+.integral .taocan {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+.integral .taocan li {
+  width: 94%;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  padding: 0 3%;
+  border-bottom: 1px solid #e6e6e6;
+  clear: both;
+  position: relative;
+}
+.integral .taocan li span {
+  display: block;
+  float: left;
+}
+.integral .taocan li .integral-num {
+  width: 25%;
+  text-align: right;
+  margin-right: 5%;
+  font-size: 0.8rem;
+}
+.integral .taocan li .integral-money {
+  width: 25%;
+}
+.integral .taocan li .integral-money i {
+  color: #ff8201;
+  font-size: 0.9rem;
+}
+.integral .taocan li .integral-give {
+  color: #ff8201;
+  width: 30%;
+  text-align: center;
+  height: 1rem;
+  line-height: 1rem;
+  margin-top: 0.8rem;
+  font-size: 0.6rem;
+  border: 1px solid #ff8201;
+  -webkit-border-radius: 0.15rem;
+  border-radius: 0.15rem;
+}
+.integral .taocan li .goumai {
+  width: 10%;
+  position: absolute;
+  right: 0;
+  top: 0.8rem;
+  height: 1rem;
+}
+.integral .btn {
+  width: 100%;
+  height: 2rem;
+  padding: 0.5rem 0;
+  margin: 0.5rem auto;
+  background-color: #FFFFFF;
+}
+.integral .btn button {
+  width: 80%;
+  -webkit-border-radius: 0.15rem;
+  border-radius: 0.15rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  background-color: #ff8201;
+  color: #FFFFFF;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+/*# sourceMappingURL=integral.css.map */

@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="msapplication-tap-highlight" content="no" />
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1" />
+		<title>完善商家信息</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link href="../css/iconfont.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="../css/information.css" />
+		<link rel="stylesheet" type="text/css" href="../css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="../css/improve.css" />
+	</head>
+
+	<body>
+		<div class="identity">
+			<div class="title">
+				<a href="javascript:history.go(-1)">
+					<i class="icon iconfont icon-arrow-left"></i>
+				</a>
+				<p>完善商家信息</p>
+			</div>
+			<div class="t_height"></div>
+			<form method="get" action="#">
+				<div class="fullinfo">
+					<div class="info-name">封面图（1张）</div>
+					<div class="info-input">
+						<span>请上传（选填）</span>
+						<input class="uploadfile" type="file" name="file" />
+					</div>
+				</div>
+				<div class="fullinfo">
+					<div class="info-name"><i>*</i>商家品牌</div>
+					<div class="info-input">
+						<input type="text" name="storename" placeholder="请输入品牌名称，如肯德基" />
+					</div>
+				</div>
+				<div class="fullinfo">
+					<div class="info-name"><i>*</i>品牌logo门头照</div>
+					<div class="info-input" id="uploadfile_img">
+						<span>请上传（选填）</span>
+						<!--<input class="uploadfile" type="file" name="img" id="cropContainerModal_imgUploadField" />-->
+						<!--<input type="file" id="file" class="uploadfile" accept="images/*">-->
+						<input type="file" name="uploadfile"  class="uploadfile" id="file" value="" />
+					</div>
+				</div>
+				<div class="fullinfo">
+					<div class="info-name"><i>*</i>经营地址</div>
+					<div class="info-input address-select">
+						<p>
+							<select id="s_province" name="s_province"></select>
+						</p>
+						<p>
+							<select id="s_city" name="s_city"></select>
+						</p>
+
+					</div>
+				</div>
+				<div class="fullinfo">
+
+					<div class="info-input">
+						<input type="text" name="address" placeholder="填写详细地址" />
+					</div>
+				</div>
+				<div class="fullinfo">
+					<div class="info-name"><i>*</i>主要电话</div>
+					<div class="info-input">
+						<input type="tel" name="tel" placeholder="必填" />
+					</div>
+				</div>
+				<div class="fullinfo">
+					<div class="info-name">其他电话</div>
+					<div class="info-input">
+						<input type="tel" name="tel" placeholder="选填" />
+					</div>
+				</div>
+				<div class="fullinfo">
+					<div class="info-name">微信二维码（1张）</div>
+					<div class="info-input">
+						<span>请上传（选填）</span>
+						<input class="uploadfile" type="file" name="file" />
+					</div>
+				</div>
+				<div class="brand-info">
+					<h1>品牌介绍</h1>
+					<div class="gettime">
+						<span>创立时间：</span>
+						<span class="info-name">
+							<input type="text" name="time" />年
+						</span>
+					</div>
+					<div class="uploadpic">
+						<div>
+							<span class="icon iconfont icon-shexiangji"></span>
+							<p>请上传</p>
+							<input type="file" name="brandfile" />
+						</div>
+					</div>
+					<textarea placeholder="请输入品牌介绍..."></textarea>
+				</div>
+				<div class="brand-info">
+					<h1>商家活动</h1>
+					<div class="uploadpic">
+						<div>
+							<span class="icon iconfont icon-sheying"></span>
+							<p>请上传</p>
+							<input type="file" name="brandfile" />
+						</div>
+					</div>
+					<textarea placeholder="请输入活动介绍..."></textarea>
+				</div>
+				<div class="id-submit">
+					<a href="keyword.html">确认</a>
+				</div>
+			</form>
+		</div>
+		<div class="menu">
+			<a href="../index.html">
+				<p class="menu-icon"><img src="../images/storebrand.png" /></p>
+				<p class="menu-text">品牌商家</p>
+			</a>
+			<a href="articlelist.html">
+				<p class="menu-icon"><img src="../images/info.png" /></p>
+				<p class="menu-text">情报</p>
+			</a>
+			<a href="shangschool.html">
+				<p class="menu-icon"><img src="../images/school.png" /></p>
+				<p class="menu-text">商学院</p>
+			</a>
+			<a href="member.html">
+				<p class="menu-icon"><img src="../images/user.png" /></p>
+				<p class="menu-text">我</p>
+			</a>
+		</div>
+		<style type="text/css">
+			.container_img {
+				position: fixed;
+				height: 15rem;
+				width: 100%;
+				z-index: 999;
+				top: 20%;
+				display: none;
+			}
+			
+			.resizer {
+				overflow: hidden;
+			}
+			
+			.resizer.have-img button.ok {
+				display: inline-block;
+			}
+			
+			.resizer.have-img .inner {
+				display: block;
+			}
+			
+			.inner {
+				width: 100%;
+				position: relative;
+				font-size: 0;
+				overflow: hidden;
+				display: none;
+				text-align: center;
+			}
+			
+			.inner img {
+				max-width: 100%;
+			}
+			
+			button.ok {
+				width: 100%;
+				height: 2rem;
+				background: rgba(0, 0, 0, .65);
+				color: #fff;
+				bottom: 0;
+			}
+			
+			.frames {
+				position: absolute;
+				top: 0;
+				left: 0;
+				/*width: 9rem!important;
+				height: 9rem!important;*/
+				border: 1px solid black;
+				cursor: move;
+				outline: rgba(0, 0, 0, 0.6) solid 10000px;
+			}
+			
+			canvas {
+				max-width: 100%;
+				margin: auto;
+				/*display: block;*/
+			}
+		</style>
+		<!--<div class="container_img"></div>-->
+		<!--加载资源-->
+		<div class="lazy_tip" id="lazy_tip">
+			<span>1%</span><br> 加载是很重要的......
+		</div>
+		<div class="mask"></div>
+		<div class="photoclip">
+			<div id="clipArea"></div>
+			<div class="clip_btn">
+				<button id="clipcancel">取消</button>
+				<button id="clipBtn">确定</button>
+			</div>
+		</div>
+		
+		<div id="cover"></div>
+	</body>
+	<script src="../js/jquery.min.js" type="text/javascript"></script>
+	<script src="../js/city.js" type="text/javascript"></script>
+	<!--<script src="../js/imgcj.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="../js/sonic.js"></script>
+	<script src="../js/comm.js"></script>
+	<script src="../js/hammer.js"></script>
+	<script src="../js/iscroll-zoom.js"></script>
+	<script src="../js/jquery.photoClip.js?v=1"></script>
+	
+	<script src="../js/information.js" type="text/javascript" charset="utf-8"></script>
+</html>

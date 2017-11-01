@@ -1,0 +1,144 @@
+body {
+  background: #f0f0f0;
+}
+.login_h {
+  width: 100%;
+  height: 8rem;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 2rem;
+  background: #f8f8f8;
+}
+.login_h img {
+  width: 4rem;
+  border-radius: .5rem;
+}
+.login_c {
+  width: 100%;
+  background: #fff;
+}
+.login_c h4 {
+  width: 50%;
+  border-bottom: .1rem #ff8402 solid;
+  color: #ff8402;
+  font-size: .7rem;
+  text-align: center;
+  height: 2rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+.login_c .login_input {
+  margin-top: .5rem;
+}
+.login_c .login_input .login_input_li {
+  height: 2rem;
+  line-height: 2rem;
+}
+.login_c .login_input .login_input_li .icon-consumer {
+  font-size: .8rem;
+}
+.login_c .login_input .login_input_li .icon-weibiaoti-- {
+  font-size: 1.2rem;
+}
+.login_c .login_input .login_input_li .icon-yanjingbiqilai {
+  color: #000;
+}
+.login_c .login_input .login_input_li .icon {
+  width: 3rem;
+  text-align: center;
+  display: block;
+}
+.login_c .login_input .login_input_li .icon img {
+  width: 1.5rem;
+}
+.login_c .login_input .login_input_li .login_input_li_input {
+  width: 14rem;
+  height: 2rem;
+  box-sizing: border-box;
+  float: right;
+  line-height: 2rem;
+}
+.login_c .login_input .login_input_li .login_input_li_input input {
+  width: 11rem;
+}
+.login_c .login_input .login_input_li .login_input_li_input .icon {
+  float: right;
+}
+.login_c .login_input .login_input_li input {
+  font-size: .6rem;
+}
+.login_b {
+  width: 15rem;
+  margin: 0 auto;
+}
+.login_b button {
+  display: block;
+  width: 100%;
+  border-radius: .3rem;
+  height: 2rem;
+  color: #fff;
+  text-align: center;
+  font-size: .7rem;
+}
+.login_b .login_btn {
+  background: #ff8500;
+  margin-top: 1rem;
+}
+.login_b .reg_btn {
+  margin-top: .5rem;
+  background: #5bc0de;
+}
+.login_b .forget_pw {
+  margin-top: .5rem;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: .1rem;
+}
+.login_b .forget_pw a {
+  color: #666;
+  font-size: .5rem;
+}
+.reg_prompt {
+  font-size: .6rem;
+  box-sizing: border-box;
+  padding-left: .5rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.reg_c {
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding-left: 1rem;
+}
+.reg_c_list {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  position: relative;
+}
+.reg_c_list .reg_left_text {
+  width: 20%;
+  float: left;
+  height: 2rem;
+  line-height: 2rem;
+}
+.reg_c_list input {
+  width: 80%;
+  float: left;
+  height: 2rem;
+  line-height: 2rem;
+}
+.reg_c_list #btn {
+  position: absolute;
+  padding: 0 0.4rem;
+  width: auto;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  border: 1px solid #dddddd;
+  right: 0.5rem;
+  top: 0.4rem;
+  color: red;
+  background-color: #FFFFFF;
+}
+/*# sourceMappingURL=login.css.map */

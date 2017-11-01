@@ -1,0 +1,285 @@
+.identity {
+  width: 100%;
+  height: 100%;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+  padding-bottom: 4rem;
+}
+.identity .keyword {
+  width: 92%;
+  padding: 0.5rem 4%;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+.identity .keyword li {
+  width: 100%;
+  height: 2.2rem;
+  line-height: 2.2rem;
+}
+.identity .keyword li span {
+  display: block;
+  float: left;
+  font-size: 0.7rem;
+  color: #000000;
+}
+.identity .keyword li .keywordname {
+  width: 10%;
+  text-align: center;
+}
+.identity .keyword li .keyinput {
+  width: 90%;
+  border-bottom: 1px solid #e5e5e5;
+}
+.identity .keyword li .keyinput input {
+  width: 100%;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  margin-top: 0.3rem;
+  font-size: 0.7rem;
+}
+.identity .keyword li .keyword-th {
+  width: 80%;
+  padding-left: 10%;
+}
+.identity .reasion {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #c5c5c5;
+}
+.identity .reasion p {
+  width: 88%;
+  margin: 0 auto;
+  padding: 0.8rem 0.5rem;
+  background-color: #d9edf6;
+  color: #31708f;
+  line-height: 1rem;
+  font-size: 0.7rem;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  border: 1px solid #bde8f1;
+}
+.identity .vote {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.identity .vote p {
+  width: 100%;
+  color: #e4004d;
+}
+.identity .vote .vote-num {
+  font-size: 1.8rem;
+}
+.identity .vote .vote-num i {
+  font-size: 2rem;
+  padding-left: 0.3rem;
+}
+.identity .vote .vote-text {
+  font-size: 0.7rem;
+}
+.identity .vote .paimin {
+  font-size: 1.8rem;
+}
+.identity .vote .currentpaimin {
+  font-size: 0.8rem;
+}
+.identity .severve {
+  width: 94%;
+  padding: 0.5rem 3%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #f2f2f2;
+}
+.identity .severve .left-serve {
+  float: left;
+  width: 20%;
+}
+.identity .severve .left-serve img {
+  max-width: 100%;
+  height: 3rem;
+}
+.identity .severve .right-serve {
+  float: left;
+  width: 80%;
+}
+.identity .severve .right-serve span {
+  display: block;
+  color: #000000;
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+.identity .severve .right-serve .spanone {
+  margin-top: 0.9rem;
+}
+.identity .severve .right-serve .spanone i {
+  font-size: 0.56rem;
+  color: #898989;
+  padding-left: 0.4rem;
+}
+.identity .severve .right-serve .spantwo i {
+  padding-left: 1rem;
+}
+.identity .severve .right-serve .spantwo i em {
+  color: #e4004d;
+  font-style: normal;
+  padding-left: 0.2rem;
+}
+.identity .buynum {
+  width: 94%;
+  padding: 0.5rem 3%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #f2f2f2;
+}
+.identity .buynum div {
+  float: left;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  font-size: 0.7rem;
+}
+.identity .buynum .right-buy {
+  float: right;
+}
+.identity .buynum .right-buy span {
+  display: block;
+  float: left;
+  text-align: center;
+}
+.identity .buynum .right-buy .buyadd,
+.identity .buynum .right-buy .buyminus {
+  width: 1.6rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  font-size: 1.4rem;
+  background-color: #f2f2f2;
+}
+.identity .buynum .right-buy .maxnum {
+  width: 2rem;
+  padding: 0 0.25rem;
+  margin-left: 0.3rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  background-color: #f2f2f2;
+}
+.identity .buynum .right-buy .buyinput {
+  width: 2rem;
+}
+.identity .buynum .right-buy .buyinput input {
+  color: #333333;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.identity .upload {
+  width: 100%;
+  height: 6.5rem;
+  border-bottom: 1px solid #c5c5c5;
+  background-color: #f9f9f9;
+}
+.identity .upload .upload-input {
+  width: 28%;
+  float: left;
+  margin-top: 0.5rem;
+  margin-left: 4%;
+  text-align: center;
+}
+.identity .upload .upload-input .upload-icon {
+  width: 100%;
+  height: 4rem;
+  border: 1px solid #979797;
+  color: #bfbfbf;
+  position: relative;
+}
+.identity .upload .upload-input .upload-icon input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.identity .upload .upload-input .upload-icon i {
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  display: block;
+}
+.identity .upload .upload-input .upload-icon p {
+  font-size: 0.7rem;
+}
+.identity .upload .upload-input .upload-name {
+  width: 100%;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  margin-top: 0.3rem;
+  color: #454545;
+}
+.identity .identity-explain {
+  width: 92%;
+  margin: 0.5rem auto;
+  font-size: 0.6rem;
+  color: #969696;
+  line-height: 1rem;
+}
+.identity .identity-explain div {
+  text-indent: 2em;
+}
+.identity .id-submit {
+  width: 92%;
+  margin: 1rem auto 0;
+  height: 2rem;
+}
+.identity .id-submit a {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  background-color: #e84f51;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+}
+.identity .contract {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+.identity .contract li {
+  width: 94%;
+  padding: 0 3%;
+  height: 2.6rem;
+  line-height: 2.6rem;
+}
+.identity .contract li span {
+  display: block;
+  float: left;
+  color: #000000;
+  font-size: 0.7rem;
+}
+.identity .contract li .contractxuhao {
+  width: 10%;
+  text-align: center;
+}
+.identity .contract li .contract-phone {
+  width: 60%;
+  border-bottom: 1px solid #e5e5e7;
+  text-align: center;
+}
+.identity .contract li .contract-time {
+  width: 30%;
+  border-bottom: 1px solid #e5e5e7;
+  text-align: right;
+}
+.identity .contract .c_title span {
+  font-size: 0.72rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=identity.css.map */
